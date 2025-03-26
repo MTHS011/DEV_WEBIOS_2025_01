@@ -1,9 +1,7 @@
 # DEV_WEBIOS_2025_01    
 
-Ola mundo
+- se torna um bom programador
+- ter um emprego na area de T.I
+- me desenvolver como profissional
+- aposentar 
 
-Hello world 
-
-HELP WORLD
-
-Git Velho Podre 
