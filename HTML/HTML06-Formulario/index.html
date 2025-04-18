@@ -13,7 +13,74 @@
 
     <form action="">
 
-        <input type="button" value="Enviar">
+        <!-- placeholder serve para inserir um texto auxiliar para informar o que o usuario dev fazer no campo input -->
+       
+        <label for="">Nome:</label>
+
+        <input type="text" placeholder="Insira o nome do usuario"><br>
+
+
+        <!-- type radio - tres opções -->
+
+        <!-- para aplicar a config do radio é necessario colocar o type como radio e o name igual para todos os inputs -->
+        <br>
+
+        <input type="radio" name="radio"> 
+        <label for="">São Paulo</label> <br>
+
+        <input type="radio" name="radio"> 
+        <label for="">Grande São Paulo</label> <br>
+
+        <input type="radio" name="radio"> 
+        <label for="">Campinas</label> <br>
+
+        
+        
+        
+        <br>
+
+        <!-- checkbox -->
+
+        <input type="checkbox"> <label for="">Funk</label><br>
+
+        <input type="checkbox"> <label for="">Pagode</label><br>
+
+        <input type="checkbox"> <label for="">Metal</label><br>
+
+        <input type="checkbox"> <label for="">Trap</label><br><br>
+
+        <!-- range -->
+
+     0KM<input type="range"> 100KM <br><br>
+
+       <!-- select -->
+
+       <select name="" id="">
+
+         <option value="Amarelo">Amarelo</option>
+         <option value="Branco">Branco</option>
+         <option value="Vermelho">Vermelho</option>
+       
+       </select><br><br>
+
+       <!-- datalist -->
+
+       <input type="text" list="busca">
+
+        <datalist id="busca">
+            <option value="Santos"></option>
+            <option value="Santo Andre"></option>
+            <option value="Santo Amaro"></option>
+            <option value="Campinas"></option>    
+        </datalist>
+        
+        <br><br>
+
+        
+
+
+
+       <br><br> <input type="button" value="Enviar"> 
 
     </form>
 
