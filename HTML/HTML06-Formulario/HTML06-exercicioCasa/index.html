@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulário de Opinião sobre a Empresa</title>
+</head>
+<body>
+  <h2>Formulário de Opinião sobre a Empresa</h2>
+  <form>
+    <!-- Nome da empresa -->
+    <label for="empresa">Nome da Empresa:</label><br>
+    <input type="text" id="empresa" name="empresa" required><br><br>
+
+    <!-- Data de entrada na empresa -->
+    <label for="dataEntrada">Data de Entrada na Empresa:</label><br>
+    <input type="date" id="dataEntrada" name="dataEntrada" required><br><br>
+
+    <!-- Quantidade de funcionários -->
+    <label for="qtdFuncionarios">Quantidade de Funcionários:</label><br>
+    <input type="number" id="qtdFuncionarios" name="qtdFuncionarios" min="1" required><br><br>
+
+    <!-- Salário -->
+    <label for="salario">Salário (R$):</label><br>
+    <input type="number" id="salario" name="salario" step="0.01" required><br><br>
+
+    <!-- Ainda está na empresa -->
+    <label>Ainda está na empresa?</label><br>
+    <input type="radio" id="sim" name="aindaNaEmpresa" value="Sim" required>
+    <label for="sim">Sim</label><br>
+    <input type="radio" id="nao" name="aindaNaEmpresa" value="Não">
+    <label for="nao">Não</label><br><br>
+
+    <!-- Tipo de contratação -->
+    <label>Tipo de Contratação:</label><br>
+    <input type="radio" id="clt" name="tipoContratacao" value="CLT" required>
+    <label for="clt">CLT</label><br>
+    <input type="radio" id="pj" name="tipoContratacao" value="PJ">
+    <label for="pj">PJ</label><br><br>
+
+    <!-- Benefícios recebidos -->
+    <label>Quais benefícios você recebe?</label><br>
+    <input type="checkbox" name="beneficios" value="Vale Refeição"> Vale Refeição<br>
+    <input type="checkbox" name="beneficios" value="Vale Alimentação"> Vale Alimentação<br>
+    <input type="checkbox" name="beneficios" value="Vale Transporte"> Vale Transporte<br>
+    <input type="checkbox" name="beneficios" value="Academias"> Academias<br>
+    <input type="checkbox" name="beneficios" value="PLR"> PLR<br>
+    <input type="checkbox" name="beneficios" value="Plano de Saúde"> Plano de Saúde<br>
+    <input type="checkbox" name="beneficios" value="Plano Odontológico"> Plano Odontológico<br>
+    <input type="checkbox" name="beneficios" value="Cesta Básica"> Cesta Básica<br>
+    <input type="checkbox" name="beneficios" value="Day Off"> Day Off<br>
+    <input type="checkbox" name="beneficios" value="Bolsa de Estudos"> Bolsa de Estudos<br>
+    <input type="checkbox" name="beneficios" value="Licença Maternidade ou Paternidade"> Licença Maternidade ou Paternidade<br>
+    <input type="checkbox" name="beneficios" value="Pet Friendly"> Pet Friendly<br>
+    <input type="checkbox" name="beneficios" value="Empréstimo Consignado"> Empréstimo Consignado<br><br>
+
+    <!-- Prós da empresa -->
+    <label for="pros">Prós da empresa:</label><br>
+    <textarea id="pros" name="pros" rows="4" cols="50" required></textarea><br><br>
+
+    <!-- Contras da empresa -->
+    <label for="contras">Contras da empresa:</label><br>
+    <textarea id="contras" name="contras" rows="4" cols="50" required></textarea><br><br>
+
+    <!-- Botão de envio -->
+    <button type="submit">Enviar</button>
+  </form>
+</body>
+</html>
