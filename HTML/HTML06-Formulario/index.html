@@ -1,89 +1,116 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
- <head>
-     <meta charset="UTF-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Document</title>
- </head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
 
- <body>
+<body>
 
   <!-- Atributo "action" serve para executar um ação: enviar o usuario par outro site web/enviar um email de boas vindas para usuario/  guardar as informaçoes preenchidas no formulario para bancos de dados ou chamar alguma ação usando o javacript -->
 
-    <form action="">
+  <form action="./boasvindas.html" target="_blank">
 
-        <!-- placeholder serve para inserir um texto auxiliar para informar o que o usuario dev fazer no campo input -->
-       
-        <label for="">Nome:</label>
-
-        <input type="text" placeholder="Insira o nome do usuario"><br>
-
-
-        <!-- type radio - tres opções -->
-
-        <!-- para aplicar a config do radio é necessario colocar o type como radio e o name igual para todos os inputs -->
-        <br>
-
-        <input type="radio" name="radio"> 
-        <label for="">São Paulo</label> <br>
-
-        <input type="radio" name="radio"> 
-        <label for="">Grande São Paulo</label> <br>
-
-        <input type="radio" name="radio"> 
-        <label for="">Campinas</label> <br>
-
-        
-        
-        
-        <br>
-
-        <!-- checkbox -->
-
-        <input type="checkbox"> <label for="">Funk</label><br>
-
-        <input type="checkbox"> <label for="">Pagode</label><br>
-
-        <input type="checkbox"> <label for="">Metal</label><br>
-
-        <input type="checkbox"> <label for="">Trap</label><br><br>
-
-        <!-- range -->
-
-     0KM<input type="range"> 100KM <br><br>
-
-       <!-- select -->
-
-       <select name="" id="">
-
-         <option value="Amarelo">Amarelo</option>
-         <option value="Branco">Branco</option>
-         <option value="Vermelho">Vermelho</option>
-       
-       </select><br><br>
-
-       <!-- datalist -->
-
-       <input type="text" list="busca">
-
-        <datalist id="busca">
-            <option value="Santos"></option>
-            <option value="Santo Andre"></option>
-            <option value="Santo Amaro"></option>
-            <option value="Campinas"></option>    
-        </datalist>
-        
-        <br><br>
-
-        
+    <!-- placeholder serve para inserir um texto auxiliar para informar o que o usuario dev fazer no campo input -->
 
 
 
-       <br><br> <input type="button" value="Enviar"> 
+    <fieldset>
+      <legend>Digite seu nome:</legend>
 
-    </form>
+      <label for="">Nome:</label>
 
- </body>
+      <input type="text" placeholder="Insira o nome do usuario" required><br>
+
+    </fieldset>
+
+
+    <!-- type radio - tres opções -->
+
+    <!-- para aplicar a config do radio é necessario colocar o type como radio e o name igual para todos os inputs -->
+    <br>
+
+
+    <fieldset>
+      <legend>Escolha o estado onde mora</legend>
+
+      <input type="radio" name="radio">
+      <label for="">São Paulo</label> <br>
+
+      <input type="radio" name="radio">
+      <label for="">Grande São Paulo</label> <br>
+
+      <input type="radio" name="radio">
+      <label for="">Campinas</label> <br>
+
+    </fieldset>
+
+
+
+    <br>
+
+    <!-- checkbox -->
+
+    <fieldset>
+      <legend>Escolha o genero musical</legend>
+      <input type="checkbox"> <label for="">Funk</label><br>
+
+      <input type="checkbox"> <label for="">Pagode</label><br>
+
+      <input type="checkbox"> <label for="">Metal</label><br>
+
+      <input type="checkbox"> <label for="">Trap</label>
+
+    </fieldset><br>
+
+    <!-- range -->
+
+    <fieldset>
+      <legend>Escolha a distacia</em></legend>
+      0KM<input type="range"> 100KM <br>
+
+    </fieldset><br>
+
+    <!-- select -->
+
+    <fieldset>
+      <legend>Escolha sua cor favorita</legend>
+      <select name="" id="">
+
+        <option value="Amarelo">Amarelo</option>
+        <option value="Branco">Branco</option>
+        <option value="Vermelho">Vermelho</option>
+    
+      </fieldset> <br>
+
+
+    </select>
+
+    <!-- datalist -->
+
+    <fieldset>
+      <legend>Escolha sua cidade</legend>
+      <input type="text" list="busca">
+
+      <datalist id="busca">
+        <option value="Santos"></option>
+        <option value="Santo Andre"></option>
+        <option value="Santo Amaro"></option>
+        <option value="Campinas"></option>
+
+    </fieldset><br>
+    </datalist>
+
+  
+
+    
+      <input type="submit" value="Enviar">
+   
+
+  </form>
+
+</body>
 
 </html>
