@@ -1,0 +1,9 @@
+#P1{
+    /* Largura da borda */
+    border-width: 5px;
+    /* Cor da borda */
+    border-color: #ff0000;
+    /* Estilo da borda */
+    border-style: double;
+
+}
