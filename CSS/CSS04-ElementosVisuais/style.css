@@ -2,8 +2,26 @@
     /* Largura da borda */
     border-width: 5px;
     /* Cor da borda */
-    border-color: #ff0000;
+    border-color: #ffffff;
     /* Estilo da borda */
     border-style: double;
 
+}
+
+img{
+    /* Largura */
+    width: 400px;
+    /* Altura */
+    height: 400px;
+}
+
+figcaption{
+    color: #ffffff;
+}
+
+body{
+    background-image: url("./matrix2.webp");
+    background-size: 100%;
+    /* Fixed/ Scroll */
+    background-attachment: fixed;
 }
