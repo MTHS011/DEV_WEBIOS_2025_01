@@ -1,0 +1,24 @@
+#D1{
+         /* Largura da borda 
+        border-width: 5px;
+
+         Cor da borda 
+        border-color: #ffffff;
+
+         Estilo da borda 
+        border-style: double; */
+
+    border: 2px solid yellowgreen;
+
+    /* Espaço Interno */
+    padding: 10px;
+    /* Espaço externo */
+    margin-bottom: 5px;
+
+
+}
+
+#D2{
+    border: 2px solid black;
+    padding: 10px;
+}
