@@ -1,3 +1,8 @@
+*{
+    margin:auto;
+    width:90%;
+}
+
 .Divs{
     border: 2px solid black;
     clear: both;
@@ -13,26 +18,76 @@
     width: 300px;
     float: left;
     margin-right: 40px;
+    border-radius: 5%;
+    /* transition: width 5s, height 5s, transform 5s; */
     
 }
 
-#imgNaruto{
-    height: 350px;
-    float: right;
-    
+#tabelaSorrir{
+    width: 70%;
+    border: 1px solid;
+    margin-top: 40px;
+    border-radius: 2%;
+    border-collapse: collapse;
 }
+
+td{
+    width: 50%;
+    border: 1px solid;
+}
+
+/* #imgSorrir:hover{   
+    width: 600px; 
+    height: 600px; 
+    transform: rotate(360deg);
+} */
+
+#imgNaruto{
+    height: 200px;
+    float: right;
+    /* transition: opacity 0.9s; */
+}
+
+/* #imgNaruto:hover{
+    opacity: 0;
+} */
+
+#paraNaruto::first-letter{
+    font-size: 25px;
+    color: rgb(205, 87, 41);
+    font-family: "Ballet", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+}
+
+
 
 #imgGod{
     height: 400px;
-    width: 400px;
+    width: 600px;
+    float: left;
 }
 
 #imgRed{
     height: 400px;
-    width: 400px;
+    width: 500px;
+    float: right;
 }
 
 #imgGif{
     height: 400px;
-    width: 400px;
+    width: 500px;
+    
 }
+
+#paraSorrir{
+    font-size: 20px;
+    margin-top: 85px;
+}
+
+#paraSorrir:hover{
+    color: black;
+    background-color: aquamarine;
+}
+
+
